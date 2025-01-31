@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in React Router v6's path matching.  The issue arises when using nested routes and the parent route does not have a catch-all `*` path.  Routes that extend beyond the declared parent route will throw an unexpected error.  The solution demonstrates how to use the `useLocation` hook to handle these edge cases gracefully.
